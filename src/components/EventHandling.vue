@@ -26,7 +26,7 @@ export default {
     showFormData(e) {
       e.preventDefault();
 
-      console.log(this.formData);
+      console.log(this.formData.name);
     },
   },
 };
